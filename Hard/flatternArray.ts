@@ -24,3 +24,8 @@ function flattenArray(arr: any[]): number[]
     }
     return result;
 }
+//test cases
+console.log(flattenArray([1, [2, 3], 4])); 
+console.log(flattenArray([[1, 2], [3, 4], 5]));
+console.log(flattenArray([1, 2, 3, 4]));
+console.log(flattenArray([[1], [2], [3], [4]]));
